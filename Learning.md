@@ -21,7 +21,7 @@ Real world exmple (RWE): TypeORM
 
 ### Design Patterns
 #### Factory Pattern
-- creational pattern that provides an interface for creating objects in superclass but allows subclasses to update the objects they created.
+- Creational pattern that provides an interface for creating objects in superclass but allows subclasses to update the objects they created.
 
 ```mermaid
 classDiagram
@@ -73,3 +73,5 @@ classDiagram
 		PushNotificationCreator ..> PushNotification : creates
 ```
 
+#### Abstract Factory
+- Creator pattern. Provides interface for creating families of related or dependent objects without creating concrete classes.

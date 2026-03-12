@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 // import './abstraction/abstraction';
 // import './dateexample';
 // import './encapsulation/encapsulation'
@@ -5,4 +7,4 @@
 // import './polymorphism/calculator'
 // import './polymorphism/notification'
 // import './basics-examples/accessModifiers'
-import './basics-examples/abstractExample'
+require("./basics-examples/abstractExample");

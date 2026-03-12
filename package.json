@@ -4,7 +4,8 @@
   "description": "A collection of design patterns implemented in TypeScript.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "(npx parcel ./index.html) & npx parcel watch ./index.html"
+    "start": "(npx parcel ./index.html) & npx parcel watch ./index.html",
+    "dev": "nodemon --watch src --ext ts --exec \"npx tsc ./src/index.ts --outDir ./dist-temp && node ./dist-temp/index.js\""
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/SnehaLanjewar/typescript-design-patterns#readme",
   "devDependencies": {
-    "parcel": "^2.16.4"
+    "nodemon": "^3.1.14",
+    "parcel": "^2.16.4",
+    "typescript": "^5.9.3"
   }
 }
